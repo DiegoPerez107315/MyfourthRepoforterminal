@@ -17,8 +17,7 @@ def get_superheroes():
     rows = ["Superman", "Batman", "Flash", "Linterna Verde", "Mujer maravilla", "Aquaman", "Shazam", "Cyborg"]
     return rows
 
-
-@app.get("/Platzi courses")
-def get_courses():
-    rows = ["Curso de Python", "Curso de JavaScript", "Curso de React", "Curso de Node.js", "Curso de Docker"]
+@app.get("/superheroesMarvel")
+def get_superheroes_marvel():
+    rows = ["ironman", "capitan america", "thor", "hulk", "black widow", "spiderman", "antman", "doctor strange"]
     return rows
